@@ -19,7 +19,6 @@ const GameTable = ()=>{
     
     onkeyup = (e)=>{
         e.preventDefault();
-        
         switch (e.code){
             case 'Escape':
                 return console.log("일시정지")
@@ -56,7 +55,7 @@ const GameTable = ()=>{
     for(let i=0; i<20; i++){
         const row = [];
         for(let j=0; j<10; j++){
-            row.push(<td key={[i,j].join(':')}></td>)
+            row.push(<td key={[i,j].join(':')}>0</td>)
         }
         gameTable.push(<tr key={i}>{row}</tr>)
     }

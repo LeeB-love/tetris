@@ -97,6 +97,8 @@ function reducer2(state, action){
   };
 }
 
+
+
 const Info3 = ()=>{
   const [state, dispatch] = useReducer(reducer2, {
     name: '',
@@ -169,9 +171,6 @@ const Info2 = ()=>{
   )
 }
 
-/*
-
-*/
 
 
 ReactDOM.render(
