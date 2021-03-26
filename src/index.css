@@ -12,10 +12,17 @@ code {
     monospace;
 }
 
+.game-div{
+  display: inline-block;
+  padding: 30px;
+  height: 792px;
+}
+
 .game-table{
   border-collapse: collapse;
   border: 1px solid black;
-  margin: 0 auto;
+  display: inline-block;
+  margin-left:200px;
 }
 
 .game-table td{
@@ -24,6 +31,42 @@ code {
   height: 30px;
 }
 
-h1{
-  margin-right: 50px;
+.state-div{
+  display: inline-block;
+  padding: 50px;
+  line-height: 400px;
+}
+
+.next-block{
+  border-collapse: collapse;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.next-block td{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+.title{
+  margin-top: 50px;
+  margin-left: 230px;
+}
+
+.level{
+  padding: 10px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.score{
+  padding: 10px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.lines{
+  padding: 10px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  
 }
