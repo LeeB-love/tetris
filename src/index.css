@@ -16,6 +16,25 @@ code {
   display: inline-block;
   padding: 30px;
   height: 792px;
+  position: relative;
+}
+.alert-gameover{
+  position: absolute;  
+  display: inline-block;
+  background-color: tomato;
+  opacity: 0.9;
+  width: 170px;
+  height: 70px;
+  margin-left: 280px;
+  margin-top: 280px;
+  border-radius: 10px;
+  text-align: center;
+}
+.alert-gameover > span{
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  line-height: 65px;
 }
 
 .game-table{
@@ -34,7 +53,8 @@ code {
 .state-div{
   display: inline-block;
   padding: 50px;
-  line-height: 400px;
+  line-height: 100px;
+  text-align: center;
 }
 
 .next-block{
@@ -58,15 +78,74 @@ code {
   padding: 10px;
   margin-bottom: 20px;
   line-height: 20px;
+  text-align: center;
 }
 .score{
   padding: 10px;
   margin-bottom: 20px;
   line-height: 20px;
+  text-align: center;
 }
 .lines{
   padding: 10px;
   margin-bottom: 20px;
   line-height: 20px;
-  
+  text-align: center;
 }
+.total-lines{
+  padding: 10px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.timer{
+  padding: 10px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.userInfo{
+  margin-left: 230px;
+}
+
+.startBtn{
+  margin-top: 30px;
+}
+
+.state-bar{
+  background-color: whitesmoke;
+  border-radius: 6px;
+}
+
+.ending-container{
+  margin-left: 230px;
+  display: inline-block;
+}
+
+.ending-container > button{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 230px;
+}
+
+.ending-container > div{
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+}
+
+.rank-table{
+  border-collapse: collapse;
+  width: 600px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.rank-table > thead > tr{
+  background-color: whitesmoke;
+}
+
+
