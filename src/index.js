@@ -445,12 +445,12 @@ const GameTable = (props)=>{
                 else{
                     for(let j=i; j>=0; j--){
                         for(let k=0;k<10; k++) {
-                            if(j!==0){
+                            if(j !== 0){
                                 bg[j][k] = bg[j-1][k];
                             }
                             else{
-                                bg[j].fill(null).map(_=>'');
-                            }  
+                                bg[j] = ["", "", "", "", "", "", "", "", "", ""];
+                            }
                         }
                     }
                 }
